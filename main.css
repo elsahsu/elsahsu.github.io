@@ -1,0 +1,53 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  text-transform: uppercase;
+  text-align: right;
+  color: #2d3c49;
+  border-bottom: 2.5pt solid #7d97ad;
+  padding: 5pt;
+}
+
+header h1 {
+  font-weight: 100;
+  font-size: 2.5em;
+  margin-bottom: 0pt;
+}
+
+header h2 {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+main h1 {
+  font-weight: 100;
+  font-size: 1.5em;
+  color: #7d97ad;
+}
+
+#work-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.project {
+  border: 5px solid #2d3c49;
+  margin: 5pt;
+  padding: 5pt;
+  width: 350pt;
+  height: 150pt;
+  box-shadow: 3pt 4pt 4pt 1pt rgba(0, 0, 0, 0.2)
+}
+
+div.project h1 {
+  font-weight: 100;
+  color: #2d3c49;
+  text-transform: uppercase;
+}
+
+div.project-link {
+  font-weight: 100;
+  font-size: 0.9em;
+}
