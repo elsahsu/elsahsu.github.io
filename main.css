@@ -35,19 +35,51 @@ main h1 {
 div.project {
   border: 5px solid #2d3c49;
   margin: 5pt;
-  padding: 5pt;
-  width: 350pt;
-  height: 150pt;
-  box-shadow: 3pt 4pt 4pt 1pt rgba(0, 0, 0, 0.2)
+  padding: 0pt;
+  width: 250pt;
+  box-shadow: 3pt 4pt 4pt 1pt rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+div.project:hover {
+  border: 5px solid #7d97ad;
+}
+
+#memory-card-project {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#tampere-attractions-project {
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 div.project h1 {
   font-weight: 100;
   color: #2d3c49;
+  margin: 4pt;
   text-transform: uppercase;
+}
+
+div.project img {
+  margin: 2pt;
 }
 
 div.project-link {
   font-weight: 100;
   font-size: 0.9em;
+  height: 25pt;
+  padding: 5pt;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
 }
