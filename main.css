@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
+  padding: 0px;
 }
 
 header {
@@ -64,6 +65,7 @@ main h1 {
   font-weight: 100;
   font-size: 1.5em;
   color: #7d97ad;
+  padding-left: 10pt;
 }
 
 #work-list {
@@ -121,4 +123,12 @@ a {
 
 a:visited {
   color: white;
+}
+
+footer {
+  padding: 5pt;
+  background-color: #2d3c49;;
+  color: white;
+  margin: 0em;
+  font-size: 0.8em;
 }
