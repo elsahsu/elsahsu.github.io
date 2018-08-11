@@ -31,14 +31,14 @@ header h2 {
 }
 
 main {
-  background-image: url("jpg/scenery_400px.jpg");
+  background-image: url("img/scenery_400px.jpg");
   background-repeat: repeat-x;
   padding-top: 400px;
 }
 
 @media screen and (max-width: 600pt) {
   main {
-    background-image: url("jpg/scenery_200px.jpg");
+    background-image: url("img/scenery_200px.jpg");
     padding-top: 200px;
   }
 
@@ -126,9 +126,10 @@ a:visited {
 }
 
 footer {
-  padding: 5pt;
-  background-color: #2d3c49;;
+  padding: 5pt 20pt;
+  background-color: #2d3c49;
   color: white;
   margin: 0em;
   font-size: 0.8em;
+  text-align: right;
 }
