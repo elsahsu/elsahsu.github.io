@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0px;
 }
 
 header {
@@ -21,7 +22,14 @@ header h2 {
   font-size: 1em;
 }
 
+main {
+  background-image: url("jpg/scenery_400px.jpg");
+  background-repeat: repeat-x;
+  padding-top: 400px;
+}
+
 main h1 {
+  margin: 3pt;
   font-weight: 100;
   font-size: 1.5em;
   color: #7d97ad;
@@ -71,7 +79,7 @@ div.project-link {
   font-size: 0.9em;
   height: 25pt;
   padding: 5pt;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #2d3c49;;
   color: white;
 }
 
