@@ -38,7 +38,7 @@ main {
 
 @media screen and (max-width: 600pt) {
   main {
-    background-image: url("img/scenery_200px.jpg");
+    background-image: url("/scenery_200px.jpg");
     padding-top: 200px;
   }
 
@@ -60,11 +60,11 @@ main {
   }
 }
 
-main h1 {
+main h2 {
   margin: 3pt;
   font-weight: 100;
   font-size: 1.5em;
-  color: #7d97ad;
+  color: #2d3c49;
   padding-left: 10pt;
 }
 
@@ -117,18 +117,18 @@ div.project-link {
 }
 
 a {
-  color: white;
   text-decoration: none;
+  color: #7d97ad;
 }
 
 a:visited {
-  color: white;
+  color: #7d97ad;
 }
 
 footer {
   padding: 5pt 20pt;
   background-color: #2d3c49;
-  color: white;
+  color: #7d97ad;
   margin: 0em;
   font-size: 0.8em;
   text-align: right;
