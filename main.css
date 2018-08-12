@@ -5,16 +5,25 @@ body {
 }
 
 header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   text-transform: uppercase;
   text-align: right;
   color: #2d3c49;
   border-bottom: 2.5pt solid #7d97ad;
-  padding: 5pt;
+}
+
+#title-box {
+  padding: 0pt 8pt;
+}
+
+#logo-box {
+  padding: 8pt 4pt;
 }
 
 header img {
-  position: absolute;
-  text-align: right;
   top: 20px;
   left: 20px;
 }
